@@ -16,7 +16,7 @@ var settings = {
 	httpAdminRoot:"/red",
 	httpNodeRoot: "/api",
 	//userDir:"/home/pi/basilisk/.node-red",
-	userDir:"/Users/harsa/Projects/basilisk/.node-red",
+	userDir:".node-red",
 	functionGlobalContext: { } ,   // enables global context
 	flowFile: "flows.json",
 };
