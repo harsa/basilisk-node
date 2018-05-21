@@ -1,3 +1,6 @@
 node_modules
 .idea
 .node-red/.config.json
+cert
+static
+build

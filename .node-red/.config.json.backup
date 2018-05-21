@@ -669,7 +669,7 @@
    }
   }
  },
- "_credentialSecret": "e2aac51cfe7a53dd8ac0560ab7773a7b07394288db9ef1c5a1b0b966e68f806c",
+ "_credentialSecret": "8036af8fd5e04ffcd19a211a3b1822813f1c4fe6bbff5704f266fb1c6632a931",
  "users": {
   "_": {
    "editor": {
@@ -678,7 +678,16 @@
      "view-node-status": true,
      "view-show-tips": true
     }
+   },
+   "git": {
+    "user": {
+     "name": "Harri Hurme",
+     "email": "harri.hurme@iki.fi"
+    }
    }
   }
+ },
+ "projects": {
+  "projects": {}
  }
 }
