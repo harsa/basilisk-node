@@ -15,8 +15,10 @@ var server = http.createServer(app);
 var settings = {
 	httpAdminRoot:"/red",
 	httpNodeRoot: "/api",
-	userDir:"/home/pi/basilisk/.node-red",
-	functionGlobalContext: { }    // enables global context
+	//userDir:"/home/pi/basilisk/.node-red",
+	userDir:"/Users/harsa/Projects/basilisk/.node-red",
+	functionGlobalContext: { } ,   // enables global context
+	flowFile: "flows.json",
 };
 
 // Initialise the runtime with a server and settings

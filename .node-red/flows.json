@@ -10,7 +10,7 @@
     "id": "2d2dd155.7354de",
     "type": "sqlitedb",
     "z": "",
-    "db": "/home/pi/basilisk/measurements"
+    "db": "measurements"
   },
   {
     "id": "d0baf700.b07418",
@@ -118,7 +118,7 @@
     "sql":
       "SELECT * FROM measurements where timestamp >= datetime('now', '-12 hour');",
     "name": "",
-    "x": 460,
+    "x": 360,
     "y": 120,
     "wires": [["7bcea08.e2b656"]]
   },
@@ -144,7 +144,7 @@
     "sql":
       "SELECT DISTINCT sensor_name, type, value, timestamp from measurements group by sensor_name, type order by timestamp desc;",
     "name": "",
-    "x": 460,
+    "x": 360,
     "y": 200,
     "wires": [["de66f153.2f73b"]]
   },
