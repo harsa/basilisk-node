@@ -30,6 +30,8 @@ app.use(settings.httpAdminRoot,RED.httpAdmin);
 // Serve the http nodes UI from /api
 app.use(settings.httpNodeRoot,RED.httpNode);
 
+app.use(express.static('build'))
+
 server.listen(8000);
 
 // Start the runtime
